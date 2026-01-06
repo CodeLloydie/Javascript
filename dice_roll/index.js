@@ -8,7 +8,7 @@ function rollDice(){
     for(let i = 0; i < numOfDice; i++){
         const value = Math.floor(Math.random() * 6) + 1;
         values.push(value);
-        images.push(`<img src="images/${value}.png" width="300" height="200">`);
+        images.push(`<img src="images/${value}.png">`);
 
 
     }
