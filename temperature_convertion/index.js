@@ -18,7 +18,7 @@ function convert(){
         displayResult();
     }
     else {
-        outputResult.textContent = "Please select a conversion type.";
+       displayResult();
     }
 }
 
