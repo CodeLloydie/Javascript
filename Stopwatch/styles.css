@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 90%);
+}
+
+#tittle{
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color : white;
+    transition: bacground-color 0.3s ease;
+}
+
+#startBtn{
+    background-color: hsl(120, 70%, 40%);
+}
+#startBtn:hover{
+    background-color: hsl(120, 70%, 30%);
+}
+
+
+#stopBtn{
+    background-color: hsl(0, 68%, 40%);
+}
+#stopBtn:hover{
+    background-color: hsl(0, 68%, 30%);
+}
+
+
+#resetBtn{
+    background-color: hsl(234, 77%, 53%);
+}
+#resetBtn:hover{
+    background-color: hsl(234, 77%, 43%);
+}
